@@ -1,0 +1,213 @@
+body{
+	background-color: lightblue;
+}
+
+#titlebar {
+	background-color: #0000ff;
+	display: block;
+	padding: 5px 5px 5px 5px;
+}
+
+#titlebar h1 {
+	padding: 0px 0px 0px 0px;
+	background-color: #4444aa;
+	text-align: center;
+	color: limegreen;
+}
+
+.holder {
+	width: 90%;
+	margin: 0 auto;
+	width: 1200px;
+	padding-top: 20px;
+	
+}
+
+.sidebar {
+	border: dashed;
+	float: left;
+	width: 300px;
+	background-color: gray;
+	border-color:red;
+	color: yellow;
+}
+
+
+.mainpage {
+	padding-left: 100px;
+	border: dotted;
+	float: left;
+	margin-right: -100px;
+	width: 800px;
+	background-color: white;
+	border-color:white;
+}
+
+.menuitem li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.contentheadline {
+	color: red;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+}
+
+.eventtable {
+	border: none;
+}
+
+.eventtablerow0 {
+	width: 20px;
+	color: red;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.eventtablerow1 {
+	width: 450px;
+	color: blue;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.eventtablerow2 {
+	width: 120px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+.eventcounter {
+	color: brown;
+	font-weight: bold; 
+	padding-bottom: 15px;
+	font-style: italic;
+}
+
+.event {
+	color: blue;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.event a {
+	font-weight: normal;
+	color: green;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.button {
+	color: yellow;
+	text-decoration: none;
+	font-style: bold;
+	background-color: green;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.buttondisabled {
+	color: blue;
+	text-decoration: none;
+	font-style: bold;
+	background-color: red;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.taskform {
+	text-align: left;
+	font-size: 20px;
+	padding: 15px 15px 15px 15px;
+	border: none;
+	
+	color: blue;
+}
+
+.label {
+	color: blue;
+	font-style: bold;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.inputtext {
+	color: yellow;
+	border: none;
+	text-decoration: none;
+	background-color: black;
+	font-size: 20px;
+}
+
+.inputtexterror {
+	color: yellow;
+	border: none;
+	text-decoration: none;
+	background-color: #660000;
+	font-size: 20px;
+}
+
+.footer {
+	border: dashed;
+	float: left;
+	width: 1200px;
+	margin-left: 160px;
+
+	background-color: black;
+	border-color: limegreen;
+	color: white;
+	
+	font-family: Consolas;
+	font-size: 12px;
+	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+.footer table {
+	width: 80%;
+	background-color: black;
+	color: white;
+	font-family: Consolas;
+	font-size: 12px;
+}
+
+
+.footer1 {
+	border: dashed;
+	float: left;
+	width: 900px;
+
+	background-color: black;
+	border-color: limegreen;
+	color: white;
+	
+	font-family: Consolas;
+	font-size: 10px;
+	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+.footer1 table {
+	width: 80%;
+	background-color: black;
+	color: white;
+	font-family: Consolas;
+	font-size: 10px;
+}
